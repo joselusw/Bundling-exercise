@@ -1,0 +1,18 @@
+$h1-color: #009688;
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+	h1 {
+		color: $h1-color;
+	}
+
+	img {
+		width: 400px;
+		height: 400px;
+	}
+}
